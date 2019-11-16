@@ -26,8 +26,7 @@ body{
     justify-content: flex-end;
 }
 .top img{
-    height: 545px;
-    width: 1280px;
+    width: 100%;
 }
 .content{
     margin: 0 auto;
@@ -102,7 +101,7 @@ body{
 .footer{
     background-color:#C7C7C7;
     height: 50px;
-    width: 1280px;
+    width: 100%;
 }
 .footer p{
     color: white;
