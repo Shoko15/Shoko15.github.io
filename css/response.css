@@ -1,6 +1,29 @@
 @media (max-width: 670px) {
+    body{
+        margin: 0 auto;
+        font-family: 游ゴシック体;
+        font-size: 14px;
+    }
+    .header{
+        height: 42px;
+        width: 280px;
+        padding-top: 20px;
+        padding-right: 65px;
+    }
     .header-logo{
-        color: rgb(224, 143, 21);
+        color: #1F91BE;
+        font-size: 18px;
+        font-weight: bold;
+        float: left;
+    }
+    .header-list li{
+        list-style: none;
+        margin-left: 12px;
+    }
+    .header-list ul{
+        margin: 9px 0 6px 0;
+        display: flex;
+        justify-content: flex-end;
     }
 
   }
