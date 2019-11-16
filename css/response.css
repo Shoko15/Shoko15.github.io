@@ -1,29 +1,104 @@
 @media (max-width: 670px) {
+    ＊{
+        margin: 0;
+        padding: 0;
+    }
     body{
-        margin: 0 auto;
-        font-family: 游ゴシック体;
-        font-size: 14px;
+        background-color: blue;
+        font-family:游ゴシック体;
+        font-size: 16px;
     }
     .header{
-        height: 42px;
-        width: 280px;
-        padding-top: 20px;
-        padding-right: 65px;
+        display: block;
+    }
+    .header-list ul{
+        list-style: none;
+        display: flex;
+        padding : 0;
+        margin: 10px auto 20px 15px;
     }
     .header-logo{
         color: #1F91BE;
         font-size: 18px;
         font-weight: bold;
-        float: left;
+        margin: 20px auto 0 15px;
     }
     .header-list li{
-        list-style: none;
-        margin-left: 12px;
+        margin-right: 12px;
     }
-    .header-list ul{
-        margin: 9px 0 6px 0;
-        display: flex;
-        justify-content: flex-end;
+    .top img{
+        width: 100%;
+        margin-bottom: 40px;
     }
-
-  }
+    .titele{
+        font-size: 22px;
+        color: #1F91BE;
+        font-weight: bold;
+        margin-left: 16px;
+        border-bottom: solid 3px #1F91BE;
+    }
+    .kizi p{
+        width: 336px;
+    }
+    .kizi-wrapper{
+        display: block;
+        margin-left: 15px;
+    }
+    .news{
+        display: block;
+        border-bottom: solid 1px #333333;
+        margin-left: 15px;
+    }
+    .day{
+        font-size: 14px;
+        font-weight: bold;
+        white-space: nowrap;
+        padding-bottom: 20px;
+    }
+    .happen{
+        width: 336px;
+    }
+    .news-btn{
+        font-size: 14px;
+        color: #1F91BE;
+        font-weight: bold;
+        border: solid 3px #1F91BE;
+        background-color: white;
+        white-space: nowrap;
+        margin: 19px 99px;
+    }
+    .content{
+        display: block;
+    }
+    .right-wrapper{
+        width: 300px;
+        margin: 60px 38px;
+    }
+    .side-picture img{
+        padding-bottom: 19px;
+    }
+    .title-c{
+        font-size: 22px;
+        color: #1F91BE;
+        font-weight: bold;
+        border-bottom: solid 3px #1F91BE;
+        margin-top: 58px;
+    }
+    .category-wraper li{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 13px;
+        padding-right: 0;
+    }
+    .footer{
+        background-color: #C7C7C7;
+        width: 100%;
+        height: 40px;
+    }
+    .footer p{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+    }
+}
